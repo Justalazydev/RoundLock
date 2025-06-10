@@ -7,7 +7,7 @@ namespace RoundLockPlugin
     public class Plugin : Plugin<Config>
     {
         public override string Name => "RoundLockPlugin";
-        public override string Author => "YourName";
+        public override string Author => "MyNameHAHAHAHA";
         public override Version Version => new Version(1, 0, 0);
         public override Version RequiredExiledVersion => new Version(3, 0, 0);
 
