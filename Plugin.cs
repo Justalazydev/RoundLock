@@ -42,10 +42,9 @@ namespace RoundLockPlugin
             Map.Broadcast(10, "ROUND AND WARHEAD LOCK WOMP WOMP"); 
 
             Exiled.API.Features.Warhead.IsLocked = true;
-            Exiled.API.Features.Warhead.Start();
             Exiled.API.Features.Round.IsLocked = true;
 
-            Log.Info("Round lock has been set.");
+            Log.Debug("Round lock has been set.");
         }
     }
 }
