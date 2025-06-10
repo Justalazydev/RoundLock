@@ -39,9 +39,8 @@ namespace RoundLockPlugin
 
         public void OnRoundStarted()
         {
-            Map.Broadcast(10, "ROUND AND WARHEAD LOCK WOMP WOMP"); // Отправляем сообщение всем игрокам на сервере
+            Map.Broadcast(10, "ROUND AND WARHEAD LOCK WOMP WOMP"); 
 
-            // Поставить roundlock
             Exiled.API.Features.Warhead.IsLocked = true;
             Exiled.API.Features.Warhead.Start();
             Exiled.API.Features.Round.IsLocked = true;
